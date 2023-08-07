@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="348dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Notificaciones"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="289dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="pra1"
+                    android:text="Practica 1"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="69dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Notificaciones 2"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="pra2"
+                    android:text="practica 2"
+                    tools:layout_editor_absoluteX="147dp"
+                    tools:layout_editor_absoluteY="157dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="cuadros de dialogo"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="22sp" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="pra3"
+                    android:text="practica 3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Permisos"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="pra4"
+                    android:text="practica 4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Actividad integradora"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="21sp" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="prain1"
+                    android:text="Integrador 1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Manejo de mapas"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="pra5"
+                    android:text="practica 5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Manejo de posicion"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="22sp" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="pra6"
+                    android:text="practica 6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Manejo de posicion 2"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="21sp" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="pra7"
+                    android:text="practica 7" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Añadiendo marcadores"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="pra8"
+                    android:text="practica 8" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="deteccion de sensores"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="pra10"
+                    android:text="practica10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Actividad integradora"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="21sp" />
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="prain2"
+                    android:text="integrador 2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Sensor de proximidad"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="21sp" />
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="pra11"
+                    android:text="practica 11" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Bluetooth"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="pra12"
+                    android:text="practica 12"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="581dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Animaciones"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="pra13"
+                    android:text="Practica 13" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="manejo de Audio"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="289dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="pra14"
+                    android:text="practica 14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Video"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="pra15"
+                    android:text="practica15" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Practicas de programacion movil 2"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="salir"
+        android:text="Salir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">m2Integrador3</string>
+    <string name="title_activity_p8">Map</string>
+    <string name="resume">buscar</string>
+    <string name="pause">detener</string>
+    <string name="title_activity_mapsp7">Map</string>
+    <string name="title_activity_p5">Map</string>
+    <string name="title_activity_mapsin2">Map</string>
+</resources>

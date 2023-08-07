@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">m2Practica5_5</string>
+    <string name="resume">buscar</string>
+    <string name="pause">detener</string>
+</resources>
